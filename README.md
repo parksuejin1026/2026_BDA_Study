@@ -1,45 +1,33 @@
-# 📊 2026 BDA Study
-> **Big Data Analysis (BDA) 학습 및 프로젝트 기록 저장소**
+# 📊 2026 Big Data Analysis Study
+> **데이터 분석 역량 강화를 위한 학습 아카이브**
 
-이 저장소는 2026년 빅데이터 분석 역량 강화를 위해 진행하는 학습 내용을 정리하고 코드를 아카이빙하는 공간입니다. 기초적인 데이터 핸들링부터 고급 시각화 기술까지 단계별 학습 과정을 포함하고 있습니다.
-
----
-
-## 🚀 Key Learning Concepts
-이 저장소에서는 다음과 같은 핵심 기술들을 중점적으로 다룹니다.
-
-- **Python Programming**: 빅데이터 분석을 위한 필수 문법 및 라이브러리 숙달
-- **Data Visualization**: `matplotlib`, `seaborn` 등을 활용한 데이터 인사이트 도출
-- **Data Engineering**: 대규모 데이터셋 로드 및 전처리 기법 (`Pandas`, `NumPy`)
-- **Korean Font Handling**: 데이터 시각화 시 한글 깨짐 방지 및 최적화 설정
+이 저장소는 빅데이터 분석의 기초부터 실무 데이터 핸들링까지의 과정을 기록합니다. Python 라이브러리를 활용한 데이터 전처리 및 시각화 기법을 중점적으로 다룹니다.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=matplotlib&logoColor=black">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/Matplotlib-ffffff?style=flat-square&logo=matplotlib&logoColor=black">
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white">
 </p>
 
 ---
 
-## 📅 Curriculum & Progress
+## 📁 Repository Structure & Contents
 
-| 주차 | 주제 | 핵심 내용 | 상태 |
-| :--- | :--- | :--- | :---: |
-| **Week 1** | 빅데이터 입문 및 시각화 | `matplotlib` 기초, 한글 폰트 설정, 선 그래프 그리기 | ✅ 완료 |
-| **Week 2** | Python 데이터 분석 기초 | `cars`, `mpg` 데이터셋 탐색, 산점도(Scatter plot) 분석 | ✅ 완료 |
-| **Week 3** | 표준 파이썬 구조 | 리스트, 튜플, 딕셔너리 등 데이터 구조 Deep Dive | 🏃 진행 중 |
+### 📅 Week 1: 빅데이터 분석 환경 및 시각화 기초
+- **File**: `Week1/01w_init_bigdata.ipynb`
+- **Description**: 분석 환경 구축 및 시각화의 기본 원리 학습
+- **Key Focus**:
+  - `matplotlib`을 이용한 기본 그래프 구현
+  - `koreanize-matplotlib` 라이브러리를 활용한 한글 폰트 최적화 설정
 
----
-
-## 📁 Project Structure
-```text
-.
-├── Week1/
-│   └── 01w_init_bigdata.ipynb   # 시각화 기초 및 환경 설정
-├── Week2/
-│   └── 02w_python_basic.ipynb   # 데이터셋 탐색 및 산점도 분석
-└── README.md                    # 저장소 가이드
+### 📅 Week 2: 데이터 탐색 및 Python 기초 분석
+- **File**: `Week2/02w_python_basic.ipynb`
+- **Description**: 실제 데이터셋을 활용한 탐색적 데이터 분석(EDA)
+- **Key Focus**:
+  - `pydataset` 라이브러리 활용 (`cars`, `mpg` 데이터셋 등)
+  - 변수 간의 관계 파악을 위한 **산점도(Scatter Plot)** 분석
+  - 데이터 분포 시각화 및 인사이트 도출
